@@ -5,6 +5,10 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
+    port: 8080
+healthCheckPath: /
+plan: free
+autoDeploy: true
     envVars:
       - key: BOT_TOKEN
         sync: false
