@@ -12,7 +12,7 @@ services:
         sync: false
       - key: API_HASH
         sync: false
-      - key: BIN_CHANNEL_ID
+      - key: LOG_CHANNEL_ID
         sync: false
       - key: ADMIN_USER_ID
         sync: false
